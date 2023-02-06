@@ -34,3 +34,11 @@ ol {
 .my-div {
     background-color: #333333;
 }
+
+/* descendant selectors */
+
+.my-div em {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
