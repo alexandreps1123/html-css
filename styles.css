@@ -27,18 +27,28 @@ ol {
     border-bottom: solid 1px #333;
 }
 
+/* id selectors */
 #my-div {
     background-color: #777777;
 }
 
+/* class selectors */
 .my-div {
     background-color: #333333;
 }
 
 /* descendant selectors */
-
 .my-div em {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
 }
 
+/* grouping selectors */
+.main-div h2, .main-div p{
+    font-size: 40px;
+}
+
+.main-div, .inside-div{
+    margin: 20px;
+    padding: 20px;
+}
