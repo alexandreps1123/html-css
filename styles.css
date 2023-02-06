@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Helvetica;
     background-color: #dddddd;
@@ -24,4 +29,8 @@ ol {
 
 #my-div {
     background-color: #777777;
+}
+
+.my-div {
+    background-color: #333333;
 }
