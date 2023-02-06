@@ -21,3 +21,7 @@ h2 {
 ol {
     border-bottom: solid 1px #333;
 }
+
+#my-div {
+    background-color: #777777;
+}
