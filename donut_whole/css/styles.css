@@ -101,7 +101,7 @@ header nav ul {
    margin: 0;
    padding: 0;
    list-style: none;
-   display: block;
+   display: inline-block;
    line-height: 141px;
 }
 
@@ -154,13 +154,23 @@ header nav ul li#logo a:hover {
    right: -30px;
 }
 
-
 /* The Whole Story */
 
+.story-excerpt {
+   width: 530px;
+   margin-right: 24px;
+   float: left;
+   font-size: 16px;
+}
 
+#best-donut {
+   background: url('../images/award.png') left center no-repeat;
+   padding: 30px 0 30px 130px;
+   float: left;
+   width: 240px;
+}
 
 /* News & Events */
-
 
 
 /* Footer */
